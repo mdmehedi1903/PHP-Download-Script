@@ -27,3 +27,4 @@ if ($ch && $fp) {
     echo " Could not open remote or local file.";
 }
 
+// Example Download URL: https://blogprotidin.com/wp-content/download/download.php
