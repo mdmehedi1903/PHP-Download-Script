@@ -1,0 +1,16 @@
+Name: _dmarc
+
+Value: v=DMARC1; p=quarantine; rua=mailto:info@domain.com; ruf=mailto:info@domain.com; fo=1
+Example: v=DMARC1; p=quarantine; rua=mailto:info@khadisikhar.com; ruf=mailto:info@khadisikhar.com; fo=1
+v=DMARC1; p=quarantine; rua=mailto:common@khadishikar.com; ruf=mailto:common@khadishikar.com; fo=1
+
+
+
+
+
+
+
+smtp.titan.email
+inquary@mychair.shop 
+~E,8]B%T4ivL7'T
+
