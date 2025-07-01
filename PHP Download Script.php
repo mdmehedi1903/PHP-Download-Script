@@ -24,5 +24,6 @@ if ($ch && $fp) {
     curl_close($ch);
     fclose($fp);
 } else {
-    echo "❌ Could not open remote or local file.";
+    echo " Could not open remote or local file.";
 }
+
