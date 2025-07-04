@@ -1,9 +1,9 @@
 <?php
 // Target URL of the .wpress file
-$url = "https://foodfight.news/wp-content/ai1wm-backups/foodfight-news-20250701-100248-g2t882utx5l1-1695683485.wpress";
+$url = "https://novela.xyz/wp-content/ai1wm-backups/yasinvlogs-com-20250202-030223-te2cape8pv6x-1717864095.wpress";
 
 // Local path where file will be saved
-$saveTo = __DIR__ . "/foodfight-news.wpress";
+$saveTo = __DIR__ . "/backup-novela.wpress";
 
 // Start download
 $ch = curl_init($url);
@@ -27,4 +27,4 @@ if ($ch && $fp) {
     echo " Could not open remote or local file.";
 }
 
-// Example Download URL: https://blogprotidin.com/wp-content/download/download.php
+// Example Download URL: https://blogprotidin.com/wp-content/ai1wm-backups/download.php
