@@ -1,6 +1,6 @@
 <?php
 // Target URL of the .wpress file
-$url = "https://novela.xyz/wp-content/ai1wm-backups/yasinvlogs-com-20250202-030223-te2cape8pv6x-1717864095.wpress";
+$url = "https://novela.xyz/wp-content/ai1wm-backups/novela-xyz-20250704-092853-n9v7rsloyync.wpress";
 
 // Local path where file will be saved
 $saveTo = __DIR__ . "/backup-novela.wpress";

@@ -126,6 +126,27 @@ add_action( 'woocommerce_after_shop_loop_item', 'add_order_now_button_to_archive
 
 
 
+
+
+
+
+
+
+
+
+// Only One product checkout with multiple quantitly and it will clean old cart, keep both code script and function 
+
+
+// <script>
+// jQuery(document).ready(function($) {
+//     $('button.buy-now').click(function(e) {
+//         e.preventDefault();
+//         var productId = $('input[name="add-to-cart"]').val(); // Get product ID
+//         window.location.href = '?buy_now=true&add-to-cart=' + productId; // Redirect to checkout with buy_now query parameter
+//     });
+// });
+// </script>
+
 function custom_buy_now_redirect() {
     if ( isset( $_GET['buy_now'] ) && is_singular( 'product' ) ) {
         // Clear the cart
