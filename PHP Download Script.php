@@ -18,7 +18,7 @@ if ($ch && $fp) {
     if (curl_errno($ch)) {
         echo "❌ cURL error: " . curl_error($ch);
     } else {
-        echo "✅ Download complete: foodfight-news.wpress";
+        echo "✅ Download Complete";
     }
 
     curl_close($ch);
